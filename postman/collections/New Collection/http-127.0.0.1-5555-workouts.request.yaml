@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://127.0.0.1:5555/workouts
+description: ""
+url: http://127.0.0.1:5555/workouts
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"date\": \"2026-10-17\",\r
+
+    \  \"duration_minutes\": 45,\r
+
+    \  \"notes\": \"Morning workout\"\r
+
+    }"
+order: 1792235222372
